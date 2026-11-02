@@ -200,8 +200,8 @@ The tests use the real `age` binary, a fake `zenity` and a temporary vault. They
 
 - **The setup and maintenance steps in this README:** followed step by step on clean Ubuntu 24.04 (Python 3.12) and Debian 12 (Python 3.11) containers, with prompts answered in the terminal.
 - **Real `zenity` windows and daily use:** one Ubuntu desktop on GNOME with Wayland and Python 3.14.
-- **The test suite:** the three Python versions above.
-- **Not tested:** other distributions, X11 desktops, other architectures, and GitHub Actions, which has never run for this repository.
+- **The test suite:** the three Python versions above, and on GitHub Actions for each push.
+- **Not tested:** other distributions, X11 desktops and other architectures.
 
 ## Security reports
 
